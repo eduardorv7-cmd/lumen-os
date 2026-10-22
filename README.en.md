@@ -99,6 +99,6 @@ It never touches live TV, HDMI inputs, the keyboard, Play Store, Play Services o
 
 Author: **Eduardo Rojas** ([@eduardorv7-cmd](https://github.com/eduardorv7-cmd)).
 
-Lumen OS builds on the [cleanyourtv](https://github.com/Gathin23/cleanyourtv) launcher (MIT, © 2026 Gathin) and the DreamOS template from [tv-makeover](https://github.com/paisanos-io/tv-makeover) (MIT). The recommendation and weather ideas are inspired by [Free My TV](https://github.com/simbasjungles/free-my-tv) (MIT); Lumen OS's code for them is its own. Details in [CREDITS.md](CREDITS.md).
+It includes open-source parts under the MIT licence; their licence notices are in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt). Details in [CREDITS.md](CREDITS.md).
 
 This product uses the TMDB API but is not endorsed or certified by TMDB. Weather data by [Open‑Meteo](https://open-meteo.com/) (CC BY 4.0). Not affiliated with Google, TCL, Apple, Netflix or any service; app names and logos belong to their owners.

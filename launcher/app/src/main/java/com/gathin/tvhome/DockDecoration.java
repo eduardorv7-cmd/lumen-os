@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 /**
- * Draws the band behind the first (dock) row and adds a gap below it. The default band is DreamOS glass
+ * Draws the band behind the first (dock) row and adds a gap below it. The default band is Lumen glass
  * (GlassDrawable) with 35px corners, 40px / 41.5px padding left and right of the tiles and 28px / 29px above
  * and below them on the 1080p design.
  */

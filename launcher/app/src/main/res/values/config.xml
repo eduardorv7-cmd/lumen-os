@@ -119,7 +119,7 @@
          still switches inputs). A theme can set "header_pills". -->
     <bool name="header_pills">false</bool>
     <!-- Where the dock tiles' top edge sits, in dp from the top of the screen, for a layout drawn to fixed
-         coordinates (DreamOS: 424dp, 848px on a 1080p screen). -1 parks the dock low as usual. A theme can set
+         coordinates (Lumen: 424dp, 848px on a 1080p screen). -1 parks the dock low as usual. A theme can set
          "dock_top_dp". -->
     <integer name="dock_top_dp">424</integer>
     <!-- res/drawable-nodpi/home_wallpaper.jpg (1920x1080) behind Home when no theme wallpaper is pushed.
@@ -130,8 +130,8 @@
          720p at 213 dpi). Some sets report 240 dpi at 1080p (a 1280dp canvas), which would shrink the layout.
          0 keeps the TV's own density. -->
     <integer name="design_width_dp">960</integer>
-    <!-- Interface sounds from res/raw: sound_startup with the boot splash, sound_move when the remote moves focus,
-         sound_select on OK. They play on the media stream, at the TV's volume. A theme can set "ui_sounds". -->
+    <!-- Interface sounds from res/raw: sound_startup with the boot splash, sound_select when the remote moves focus
+         and on OK. They play on the media stream, at the TV's volume. A theme can set "ui_sounds". -->
     <bool name="ui_sounds">true</bool>
     <!-- greeting_name (the name after "Buenas noches,") comes from "nombre" in launcher/lumen.properties. -->
     <!-- Optional VPN app the network pill opens (hold the pill for Wi-Fi settings), e.g. the package of the

@@ -13,7 +13,7 @@ import android.graphics.drawable.Drawable;
 import androidx.annotation.NonNull;
 
 /**
- * DreamOS glass: rgba(217,217,217,0.71) with a 2px white inside edge, softened by the design's 2px layer blur.
+ * Lumen glass: rgba(217,217,217,0.71) with a 2px white inside edge, softened by the design's 2px layer blur.
  * The blur spills a few pixels past the bounds, so the parent must not clip there. It is drawn into a bitmap
  * once per size: a blur mask on every frame would cost the Mali-470 on each focus move.
  */

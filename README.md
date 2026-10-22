@@ -108,6 +108,6 @@ tools/video/   proyecto de Remotion con el que se montó el video de demostraci�
 
 Autor: **Eduardo Rojas** ([@eduardorv7-cmd](https://github.com/eduardorv7-cmd)).
 
-Lumen OS parte del launcher de [cleanyourtv](https://github.com/Gathin23/cleanyourtv) (MIT, © 2026 Gathin) y de la plantilla DreamOS de [tv-makeover](https://github.com/paisanos-io/tv-makeover) (MIT). Las ideas de recomendaciones y clima se inspiran en [Free My TV](https://github.com/simbasjungles/free-my-tv) (MIT); el código de Lumen OS para eso es propio. Detalle en [CREDITS.md](CREDITS.md).
+Incluye partes de código abierto con licencia MIT; sus avisos de licencia están en [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt). Detalle en [CREDITS.md](CREDITS.md).
 
 Este producto usa la API de TMDB pero no está avalado ni certificado por TMDB. Datos del clima por [Open‑Meteo](https://open-meteo.com/) (CC BY 4.0). No está afiliado a Google, TCL, Apple, Netflix ni ningún servicio; los nombres y logos de las apps pertenecen a sus dueños.

@@ -35,7 +35,7 @@
         <item name="android:drawablePadding">0dp</item>
     </style>
 
-    <!-- DreamOS glass button: 84x82px on the 1080p design with a 38px icon centred by even padding. MainActivity
+    <!-- Lumen glass button: 84x82px on the 1080p design with a 38px icon centred by even padding. MainActivity
          gives it its glass background (GlassDrawable). Give it a contentDescription, since there is no text. -->
     <style name="GlassButton">
         <item name="android:layout_width">34dp</item>

@@ -7,8 +7,8 @@ import android.os.SystemClock;
 import android.util.SparseBooleanArray;
 
 /**
- * Interface sounds (config.xml, ui_sounds): res/raw/sound_startup with the boot splash, sound_move when the remote
- * moves focus, sound_select on OK. Decoded once into a SoundPool, so a key plays without touching the disk.
+ * Interface sounds (config.xml, ui_sounds): res/raw/sound_startup with the boot splash, and sound_select both when
+ * the remote moves focus and on OK. Decoded once into a SoundPool, so a key plays without touching the disk.
  */
 final class UiSounds {
 
@@ -16,7 +16,7 @@ final class UiSounds {
     private static final long STARTUP_LATE_MS = 1_500L;
 
     private final SoundPool pool;
-    private final int startup, move, select;
+    private final int startup, select;
     private final SparseBooleanArray loaded = new SparseBooleanArray();
     private long startupWanted;
 
@@ -31,7 +31,6 @@ final class UiSounds {
                         .build())
                 .build();
         startup = pool.load(ctx, R.raw.sound_startup, 1);
-        move = pool.load(ctx, R.raw.sound_move, 1);
         select = pool.load(ctx, R.raw.sound_select, 1);
         // Load results arrive on this (main) thread's looper, so none can come before the listener is set.
         pool.setOnLoadCompleteListener((p, id, status) -> {
@@ -47,7 +46,7 @@ final class UiSounds {
     }
 
     void move() {
-        play(move);
+        play(select);
     }
 
     void select() {

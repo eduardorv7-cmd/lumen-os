@@ -89,7 +89,7 @@ public class AppAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     static final float FOCUS_SCALE = 1.10f;
     /**
-     * Design size of a tile (dp): 349x165px on the DreamOS 1080p design. Tiles shrink from here when the columns
+     * Design size of a tile (dp): 349x165px on the Lumen 1080p design. Tiles shrink from here when the columns
      * don't fit, see tileWidthPx.
      */
     static final float DESIGN_W_DP = 174.5f, DESIGN_H_DP = 82.5f;
@@ -102,7 +102,7 @@ public class AppAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         int design = Math.round(DESIGN_W_DP * density);
         if (innerWidthPx <= 0 || columns <= 0) return design;
         int cell = innerWidthPx / columns;
-        // 6dp: with DreamOS's 24dp gaps the design size still fits its cell at the focus zoom.
+        // 6dp: with the design's 24dp gaps the design size still fits its cell at the focus zoom.
         int fit = (int) ((cell - 6 * density) / FOCUS_SCALE);
         return Math.max(Math.round(80 * density), Math.min(design, fit));
     }
