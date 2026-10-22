@@ -1,0 +1,26 @@
+# TCL Smart TV G07 (product G07_4K_GB_NF, Realtek RTD2851A, 2 GB), Google TV en Android 11, firmware AR17.
+# Paquetes de anuncios, recomendaciones, telemetria y demo. Se DESACTIVAN (pm disable-user), nunca se desinstalan.
+# Probado en un TV real el 2026-10-21: Inicio, Wi-Fi, TV en vivo, HDMI, Netflix y YouTube siguieron funcionando.
+# Basado en tvs/tcl-g07-google-tv de paisanos-io/tv-makeover (cleanyourtv), mas conservador.
+#
+# NO desactivar: com.tcl.tv com.tcl.tvinput com.tcl.channelplus (TV en vivo/entradas), com.tcl.suspension (panel
+# de entradas), com.tcl.keyhelp com.tcl.autopair (control), com.tcl.inputmethod.international (teclado),
+# com.tcl.settings com.tcl.system.server com.tcl.providers.config com.tcl.initsetup com.tcl.factory.view com.tvos,
+# com.tcl.usercenter com.tcl.useragreement com.tcl.partnercustomizer, com.tcl.ttvs (tambien actualiza el firmware),
+# Play Store / Play Services, y com.google.android.tungsten.setupwraith si es dueno del Wi-Fi guardado.
+
+# Anuncios y recomendaciones
+com.tcl.waterfall.overseas                 # recomendaciones de contenido de TCL
+com.tcl.dashboard                          # panel de promos de TCL
+com.tcl.messagebox                         # mensajes y promos enviados al TV
+com.tcl.tv.tclhome_passive                 # contenido de TCL en el inicio al arrancar
+android.autoinstalls.config.google.gtvpai  # instalacion automatica de apps de socios
+
+# Retroalimentacion y telemetria
+com.google.android.feedback                # "enviar comentarios"
+com.google.android.partnersetup            # atribucion de apps de socios
+com.tcl.guard                              # TGuard: rastreo de uso
+
+# Demo de tienda y modo hotel
+com.tcl.esticker                           # etiqueta de demo para tiendas
+com.tcl.hotelmenu                          # portal del modo hotel

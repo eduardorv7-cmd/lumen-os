@@ -1,0 +1,86 @@
+[
+ {
+  "kind": "clip",
+  "src": "lumen_boot.mp4",
+  "from": 0,
+  "seconds": 3.1,
+  "sound": "sound_startup.ogg",
+  "soundTrim": 1.5
+ },
+ {
+  "kind": "card",
+  "title": "Lo que hay en cada app",
+  "subtitle": "Recomendaciones a pantalla completa de Apple TV, Netflix, YouTube, HBO Max, Disney+ y Crunchyroll",
+  "seconds": 2.8
+ },
+ {
+  "kind": "clip",
+  "src": "lumen_dock.mp4",
+  "from": 0.2,
+  "seconds": 28.2
+ },
+ {
+  "kind": "card",
+  "title": "Toda tu biblioteca",
+  "subtitle": "Prime Video, Pluto TV y más, también en la cuadrícula",
+  "seconds": 2.6
+ },
+ {
+  "kind": "clip",
+  "src": "lumen_grid.mp4",
+  "from": 1.0,
+  "seconds": 14.5
+ },
+ {
+  "kind": "card",
+  "title": "Ficha, tráiler y Mi lista",
+  "subtitle": "Mantén OK sobre una app para ver la ficha de lo que recomienda",
+  "seconds": 2.6
+ },
+ {
+  "kind": "clip",
+  "src": "lumen_panels.mp4",
+  "from": 0.3,
+  "seconds": 7.0
+ },
+ {
+  "kind": "clip",
+  "src": "lumen_panels.mp4",
+  "from": 10.5,
+  "seconds": 7.5
+ },
+ {
+  "kind": "clip",
+  "src": "lumen_panels.mp4",
+  "from": 25.0,
+  "seconds": 7.5
+ },
+ {
+  "kind": "card",
+  "title": "El clima de tu ciudad",
+  "subtitle": "Hora por hora, en vidrio esmerilado",
+  "seconds": 2.4
+ },
+ {
+  "kind": "clip",
+  "src": "lumen_panels.mp4",
+  "from": 36.0,
+  "seconds": 9.0
+ },
+ {
+  "kind": "card",
+  "title": "Salvapantallas Lumen",
+  "subtitle": "Tus series y películas mientras el TV descansa",
+  "seconds": 2.4
+ },
+ {
+  "kind": "clip",
+  "src": "lumen_dream.mp4",
+  "from": 10.0,
+  "seconds": 18.0
+ },
+ {
+  "kind": "outro",
+  "seconds": 4.5
+ }
+]

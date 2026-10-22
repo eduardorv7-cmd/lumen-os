@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textos de Lumen OS en español (los de inglés están en values/strings_lumen.xml). -->
+<resources>
+    <string name="lumen_my_list">Mi lista</string>
+    <string name="lumen_my_list_count">Mi lista · %d</string>
+    <string name="lumen_in_my_list">En mi lista</string>
+    <string name="lumen_added">Agregado a Mi lista</string>
+    <string name="lumen_removed">Quitado de Mi lista</string>
+    <string name="lumen_list_empty">Tu lista está vacía. Mantén OK sobre una app y elige ＋ Mi lista.</string>
+    <string name="lumen_cant_open">No se pudo abrir</string>
+    <string name="lumen_loading">Cargando…</string>
+    <string name="lumen_watch_on">Ver en %s</string>
+    <string name="lumen_the_app">la app</string>
+    <string name="lumen_trailer">Tráiler</string>
+    <string name="lumen_yt_overview">Video en tendencia en YouTube del canal %s.</string>
+    <string name="lumen_yt_overview_plain">Video en tendencia en YouTube.</string>
+    <string name="lumen_overview_failed">No se pudo cargar la sinopsis. Revisa la conexión.</string>
+    <string name="lumen_no_overview">Sin sinopsis en español todavía.</string>
+    <plurals name="lumen_seasons">
+        <item quantity="one">%d temporada</item>
+        <item quantity="other">%d temporadas</item>
+    </plurals>
+    <string name="lumen_with">Con %s</string>
+    <string name="lumen_series">Serie</string>
+    <string name="lumen_movie">Película</string>
+    <string name="lumen_new">Nuevo</string>
+    <string name="lumen_trending">Tendencias</string>
+    <string name="lumen_featured">Destacado</string>
+    <string name="lumen_now">Ahora</string>
+    <string name="lumen_now_on">Ahora en %s</string>
+    <string name="lumen_forecast_loading">Cargando el pronóstico…</string>
+    <string name="lumen_forecast_failed">No se pudo cargar el pronóstico.</string>
+    <string name="lumen_forecast_partial">Pronóstico incompleto.</string>
+    <string name="lumen_feels">Sensación %1$d° · Máx %2$d° · Mín %3$d°</string>
+    <string name="lumen_rain">Lluvia</string>
+    <string name="lumen_wind">Viento</string>
+    <string name="lumen_sunrise">Amanecer</string>
+    <string name="lumen_sunset">Atardecer</string>
+    <string name="lumen_tomorrow">Mañana</string>
+    <string name="lumen_w_clear">Despejado</string>
+    <string name="lumen_w_partly">Parcialmente nublado</string>
+    <string name="lumen_w_cloudy">Nublado</string>
+    <string name="lumen_w_fog">Niebla</string>
+    <string name="lumen_w_drizzle">Llovizna</string>
+    <string name="lumen_w_rain">Lluvia</string>
+    <string name="lumen_w_snow">Nieve</string>
+    <string name="lumen_w_showers">Chubascos</string>
+    <string name="lumen_w_storm">Tormenta</string>
+    <string name="lumen_w_variable">Variable</string>
+</resources>

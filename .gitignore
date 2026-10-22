@@ -1,0 +1,26 @@
+# Valores privados de cada instalacion (claves de API, ciudad)
+launcher/lumen.properties
+launcher/lumen.properties.anterior
+launcher/local.properties
+# Compilacion
+launcher/.gradle/
+launcher/app/build/
+launcher/build/
+dist/
+*.apk
+# Herramientas y estado local de los scripts
+windows/platform-tools/
+windows/platform-tools.zip
+windows/tv.txt
+windows/deshacer-inicio.txt
+windows/deshacer-salvapantallas.txt
+windows/monitor.log
+windows/cola/
+windows/resultados/
+windows/apks/
+windows/respaldo-*/
+mac/tv.txt
+mac/deshacer-inicio.txt
+mac/deshacer-salvapantallas.txt
+mac/respaldo-*/
+.DS_Store

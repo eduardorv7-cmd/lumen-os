@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lumen OS texts (English, the default). Spanish: values-es/strings_lumen.xml. The TV's language picks one. -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="lumen_my_list">My list</string>
+    <string name="lumen_my_list_count">My list · %d</string>
+    <string name="lumen_in_my_list">In my list</string>
+    <string name="lumen_added">Added to My list</string>
+    <string name="lumen_removed">Removed from My list</string>
+    <string name="lumen_list_empty">Your list is empty. Hold OK on an app and choose ＋ My list.</string>
+    <string name="lumen_cant_open">Couldn\'t open it</string>
+    <string name="lumen_loading">Loading…</string>
+    <string name="lumen_watch_on">Watch on %s</string>
+    <string name="lumen_the_app">the app</string>
+    <string name="lumen_trailer">Trailer</string>
+    <string name="lumen_yt_overview">Trending on YouTube, from %s.</string>
+    <string name="lumen_yt_overview_plain">Trending on YouTube.</string>
+    <string name="lumen_overview_failed">Couldn\'t load the synopsis. Check the connection.</string>
+    <string name="lumen_no_overview">No synopsis yet.</string>
+    <plurals name="lumen_seasons">
+        <item quantity="one">%d season</item>
+        <item quantity="other">%d seasons</item>
+    </plurals>
+    <string name="lumen_with">With %s</string>
+    <string name="lumen_series">Series</string>
+    <string name="lumen_movie">Movie</string>
+    <string name="lumen_new">New</string>
+    <string name="lumen_trending">Trending</string>
+    <string name="lumen_featured">Featured</string>
+    <string name="lumen_now">Now</string>
+    <string name="lumen_now_on">Now on %s</string>
+    <string name="lumen_forecast_loading">Loading the forecast…</string>
+    <string name="lumen_forecast_failed">Couldn\'t load the forecast.</string>
+    <string name="lumen_forecast_partial">Incomplete forecast.</string>
+    <string name="lumen_feels">Feels like %1$d° · High %2$d° · Low %3$d°</string>
+    <string name="lumen_rain">Rain</string>
+    <string name="lumen_wind">Wind</string>
+    <string name="lumen_sunrise">Sunrise</string>
+    <string name="lumen_sunset">Sunset</string>
+    <string name="lumen_tomorrow">Tomorrow</string>
+    <string name="lumen_w_clear">Clear</string>
+    <string name="lumen_w_partly">Partly cloudy</string>
+    <string name="lumen_w_cloudy">Cloudy</string>
+    <string name="lumen_w_fog">Fog</string>
+    <string name="lumen_w_drizzle">Drizzle</string>
+    <string name="lumen_w_rain">Rain</string>
+    <string name="lumen_w_snow">Snow</string>
+    <string name="lumen_w_showers">Showers</string>
+    <string name="lumen_w_storm">Thunderstorm</string>
+    <string name="lumen_w_variable">Variable</string>
+</resources>

@@ -1,0 +1,11 @@
+{
+  "name": "lumen-os-video",
+  "private": true,
+  "scripts": { "render": "remotion render src/index.ts LumenPromo out/lumen-os.mp4" },
+  "dependencies": {
+    "@remotion/cli": "4.0.537",
+    "remotion": "4.0.537",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  }
+}

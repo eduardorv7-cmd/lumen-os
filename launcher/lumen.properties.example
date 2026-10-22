@@ -1,0 +1,21 @@
+# Lumen OS: valores de tu instalacion. Copia este archivo como lumen.properties (no se sube a git).
+# Tu nombre para el saludo de la pantalla principal ("Buenas noches, Eduardo"). Vacio: solo el saludo.
+nombre=
+# Tamano de tu TV en pulgadas (32 a 100): ajusta el tamano de la interfaz. Vacio: como un TV de 55".
+pulgadas=
+# Recomendaciones (gratis): themoviedb.org > Ajustes > API > "Clave de la API" (32 caracteres)
+tmdb_key=
+# Pais del catalogo (2 letras): EC, MX, CO, ES, US... Vacio: el pais de tu ciudad del clima, o el del TV.
+tmdb_region=
+# Tendencias de YouTube (gratis): Google Cloud > Credenciales > Clave de API, restringida a "YouTube Data API v3"
+youtube_key=
+# Clima (Open-Meteo, sin clave). Vacio o "auto": el TV detecta tu ciudad por su conexion a internet.
+# COMPILAR te pregunta la ciudad y busca sus coordenadas; tambien puedes escribirlas a mano.
+weather_city=
+weather_lat=
+weather_lon=
+# Destacados (opcional): tus titulos favoritos salen primero en cada app y en el salvapantallas.
+# app:tv/ID o app:movie/ID (el numero de la pagina del titulo en themoviedb.org); en YouTube, el id del video.
+# Apps: appletv netflix youtube hbo disney crunchyroll prime pluto tubi paramount mubi dgo vix
+# Ejemplo: destacados=appletv:tv/95396 netflix:tv/1408 hbo:tv/1399 crunchyroll:tv/209867 youtube:QCZZwZQ4qNs
+destacados=
