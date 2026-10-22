@@ -34,7 +34,12 @@ if grep -q "^weather_city=[[:space:]]*$" lumen.properties; then
   read -r -p "Ciudad para el clima (Enter = detectar automaticamente): " C
   CITY=auto; LAT=; LON=
   if [ -n "$C" ]; then
+    # Spanish and English names ("Nueva York" / "New York"): keep the bigger city.
     J=$(curl -fsS --get --data-urlencode "name=$C" "https://geocoding-api.open-meteo.com/v1/search?count=1&language=es" 2>/dev/null || true)
+    J2=$(curl -fsS --get --data-urlencode "name=$C" "https://geocoding-api.open-meteo.com/v1/search?count=1&language=en" 2>/dev/null || true)
+    P1=$(printf '%s' "$J" | plutil -extract results.0.population raw -o - - 2>/dev/null || echo 0)
+    P2=$(printf '%s' "$J2" | plutil -extract results.0.population raw -o - - 2>/dev/null || echo 0)
+    [ "${P2:-0}" -gt "${P1:-0}" ] 2>/dev/null && J="$J2"
     LA=$(printf '%s' "$J" | plutil -extract results.0.latitude raw -o - - 2>/dev/null || true)
     LO=$(printf '%s' "$J" | plutil -extract results.0.longitude raw -o - - 2>/dev/null || true)
     NM=$(printf '%s' "$J" | plutil -extract results.0.name raw -o - - 2>/dev/null || true)

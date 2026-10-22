@@ -61,10 +61,15 @@ if (-not (Get-Prop 'weather_city')) {
   if ($c) {
     try {
       $q = [uri]::EscapeDataString(($c -split ',')[0].Trim())
+      # Searched in Spanish and in English ("Nueva York" and "New York" both work), biggest city first.
       # Bytes decoded as UTF-8 by hand: PowerShell 5.1 can garble accents (Bogota, Medellin) otherwise.
-      $raw = (Invoke-WebRequest -UseBasicParsing "https://geocoding-api.open-meteo.com/v1/search?name=$q&count=10&language=es").RawContentStream.ToArray()
-      $r = [Text.Encoding]::UTF8.GetString($raw) | ConvertFrom-Json
-      $hits = @($r.results)
+      $all = @{}
+      foreach ($lang in 'es', 'en') {
+        $raw = (Invoke-WebRequest -UseBasicParsing "https://geocoding-api.open-meteo.com/v1/search?name=$q&count=10&language=$lang").RawContentStream.ToArray()
+        $r = [Text.Encoding]::UTF8.GetString($raw) | ConvertFrom-Json
+        foreach ($x in @($r.results)) { if ($x -and -not $all.ContainsKey([string]$x.id)) { $all[[string]$x.id] = $x } }
+      }
+      $hits = @($all.Values | Sort-Object -Property @{ Expression = { [double]$_.population }; Descending = $true })
       if ($c -match ',') {
         $want = ($c -split ',', 2)[1].Trim()
         $f = @($hits | Where-Object { $_.country -like "*$want*" -or $_.admin1 -like "*$want*" -or $_.country_code -eq $want })
