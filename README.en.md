@@ -8,6 +8,8 @@
 
 ▶️ **[Watch the full video (1:48)](docs/video/lumen-os-demo.mp4)**: boot, recommendations for each app, detail card with trailer, My list, weather and screensaver, recorded on a real TV.
 
+📺 **[Installation tutorial on YouTube (2:33, in Spanish)](https://youtu.be/p3jJC1I-lsw)**: step by step on Windows, from turning on developer mode to seeing it on the TV.
+
 **Languages:** the interface follows your TV's language, in **English** or **Spanish**, and so do the titles and synopses. The install scripts and guides are in Spanish for now.
 
 ## Features
@@ -49,6 +51,8 @@
 (Screenshots taken on a TV set to Spanish.)
 
 ## Quick install
+
+Prefer to watch? Follow the **[installation video on YouTube](https://youtu.be/p3jJC1I-lsw)** (2:33, in Spanish).
 
 1. **On the TV**: turn on *Developer options* and *USB debugging* (Settings → System → About → press *Android TV OS build* 7 times; then Settings → System → Developer options).
 2. **On the computer**, download this repository:

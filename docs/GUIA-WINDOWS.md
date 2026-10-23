@@ -2,6 +2,8 @@
 
 Tiempo: unos 15 minutos la primera vez (casi todo es descarga). Necesitas Windows 10 u 11 en la misma red Wi‑Fi que el TV. No hace falta ser administrador ni instalar nada a mano: los scripts descargan todo de fuentes oficiales y lo dejan en tu carpeta de usuario (`%USERPROFILE%\.lumen-os`), sin tocar el sistema.
 
+📺 Todo este proceso en video: **[tutorial de instalación en YouTube](https://youtu.be/p3jJC1I-lsw)** (2:33).
+
 ## 1. Preparar el TV (una sola vez, con el control)
 
 1. **Ajustes** (engranaje) → **Preferencias del dispositivo** → **Información**. En Google TV nuevos: **Sistema** → **Información**.

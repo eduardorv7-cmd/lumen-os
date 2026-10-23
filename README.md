@@ -8,6 +8,8 @@
 
 ▶️ **[Ver el video completo (1:48)](docs/video/lumen-os-demo.mp4)**: arranque, recomendaciones de cada app, ficha con tráiler, Mi lista, clima y salvapantallas, grabado en un TV real.
 
+📺 **[Tutorial de instalación en YouTube (2:33)](https://youtu.be/p3jJC1I-lsw)**: paso a paso con Windows, desde activar el modo desarrollador hasta verlo en el TV.
+
 **Idiomas:** la interfaz usa el idioma de tu TV, **español** o **inglés**, y los títulos y sinopsis también.
 
 ## Qué trae
@@ -47,6 +49,8 @@
 | ![Clima](docs/img/capturas/10-clima.jpg) | ![Salvapantallas](docs/img/capturas/11-salvapantallas.jpg) |
 
 ## Instalación rápida
+
+¿Prefieres verlo? Sigue el **[video de instalación en YouTube](https://youtu.be/p3jJC1I-lsw)** (2:33).
 
 1. **En el TV**: activa *Opciones de desarrollador* y *Depuración USB* (pasos en la guía).
 2. **En la computadora**, descarga este repositorio y sigue tu guía:
