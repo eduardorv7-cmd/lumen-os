@@ -53,7 +53,7 @@
 ¿Prefieres verlo? Sigue el **[video de instalación en YouTube](https://youtu.be/p3jJC1I-lsw)** (2:33).
 
 1. **En el TV**: activa *Opciones de desarrollador* y *Depuración USB* (pasos en la guía).
-2. **En la computadora**, descarga este repositorio y sigue tu guía:
+2. **En la computadora**, descarga **[lumen-os.zip](https://github.com/eduardorv7-cmd/lumen-os/releases/latest/download/lumen-os.zip)** (última versión), descomprímelo y sigue tu guía:
    - Windows: [docs/GUIA-WINDOWS.md](docs/GUIA-WINDOWS.md) → `COMPILAR.bat` y luego `INSTALAR.bat`
    - macOS: [docs/GUIA-MAC.md](docs/GUIA-MAC.md) → `mac/compilar.sh` y luego `mac/instalar.sh`
 3. **Opcional**: `COMPILAR.bat` te pide tus claves gratuitas de TMDB y YouTube (no se ven al escribirlas; Enter para omitir). Ver abajo para qué sirve cada una.

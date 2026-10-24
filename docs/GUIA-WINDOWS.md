@@ -13,7 +13,7 @@ Tiempo: unos 15 minutos la primera vez (casi todo es descarga). Necesitas Window
 
 ## 2. Descargar Lumen OS
 
-En GitHub: botón **Code** → **Download ZIP**, y descomprímelo (por ejemplo en `Documentos\lumen-os`). Si usas git: `git clone https://github.com/eduardorv7-cmd/lumen-os`.
+Descarga **[lumen-os.zip](https://github.com/eduardorv7-cmd/lumen-os/releases/latest/download/lumen-os.zip)** (la última versión, también en la página *Releases* del repo) y descomprímelo (por ejemplo en `Documentos\lumen-os`). También sirve el botón **Code** → **Download ZIP**. Si usas git: `git clone https://github.com/eduardorv7-cmd/lumen-os`.
 
 ## 3. Tus claves (opcional, recomendado)
 

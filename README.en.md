@@ -55,7 +55,7 @@
 Prefer to watch? Follow the **[installation video on YouTube](https://youtu.be/p3jJC1I-lsw)** (2:33, in Spanish).
 
 1. **On the TV**: turn on *Developer options* and *USB debugging* (Settings → System → About → press *Android TV OS build* 7 times; then Settings → System → Developer options).
-2. **On the computer**, download this repository:
+2. **On the computer**, download **[lumen-os.zip](https://github.com/eduardorv7-cmd/lumen-os/releases/latest/download/lumen-os.zip)** (latest release) and unzip it:
    - Windows: run `windows\COMPILAR.bat`, then `windows\INSTALAR.bat` ([guide](docs/GUIA-WINDOWS.md), in Spanish). The first build downloads Java 17 and the Android SDK by itself; ADB is downloaded too.
    - macOS: `mac/compilar.sh`, then `mac/instalar.sh` ([guide](docs/GUIA-MAC.md)).
    - INSTALAR asks for the TV's IP address (Settings → Network on the TV). Accept the "Allow USB debugging?" prompt on the TV the first time.
